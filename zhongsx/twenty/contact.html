@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contact</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/iconfont/iconfont.css" />
+		<script src="js/jquery.js" type="text/javascript"></script>
+		<script>
+			$(function(){
+				$('#contactNav').css({position: 'fixed',top:-30,}).addClass("top3");
+
+				$('#contactNav').find('a').attr("style","color:#7c8081;");
+				$('.iconfont').css({top:30});
+			})
+		</script>
+	</head>
+	<body class="contact">
+	<!-- Header -->
+	<div class="top" id="contactNav">
+		<h1><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+		<nav>
+			<ul class="menu">
+				<li class="navBar current"><a href="index.html">Welcome</a></li>
+				<li class="navBar drop_down"  id="anchor1">
+					<a  href="#">
+						<i class=" iconfont">&#xe6a6;</i>
+						Layouts</a>
+					<ul class="submenu" id="show1">
+						<li class="triangle"><a href="left-sidebar.html">Left Sidebar</a></li>
+						<li><a href="right-sidebar.html">Right Sidebar</a></li>
+						<li><a href="no-sidebar.html">No Sidebar</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li id="anchor2">
+							<a href="#">Submenu</a>
+							<ul class="submenu2" id="show2">
+								<li><a href="#">Dolore Sed</a></li>
+								<li><a href="#">Consequat</a></li>
+								<li><a href="#">Lorem Magna</a></li>
+								<li><a href="#">Sed Magna</a></li>
+								<li><a href="#">Ipsum Nisl</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class="navBar button "><a href="#" >Sign Up</a></li>
+			</ul>
+		</nav>
+		<div class="navBtn">
+			<div class="navBtn_pic"><input type="button" ><i class="iconfont" id="btnPic">&#xe699;</i></div>
+			<div id="btnMenu">
+				<ul >
+					<li ><a href="left-sidebar.html">Left Sidebar</a></li>
+					<li><a href="right-sidebar.html">Right Sidebar</a></li>
+					<li><a href="no-sidebar.html">No Sidebar</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			<!-- Main -->
+	<article class="txtContainer formwrap">
+		<div>
+			<span class="littlePic"><img src="images/contact.png" alt=""></span>
+			<h2>Get In Touch</h2>
+			<p>Use the form below to give /dev/null a piece of your mind.</p>
+		</div>
+
+		<section class="formContainer">
+			<input type="text" name="name" placeholder="Name" />
+
+			<input type="text" name="email" placeholder="Email" />
+
+			<input type="text" name="subject" placeholder="Subject" />
+
+			<textarea name="message" placeholder="Message"></textarea>
+
+			<input type="submit" class="special" value="Send Message" />
+
+		</section>
+
+	</article>
+
+	<footer class="footer">
+		<ul class="little_icons">
+			<li><a href="#"><img src="images/icons_03.jpg" alt="Facebook"></a></li>
+			<li><a href="#"><img src="images/icons_05.jpg" alt="Facebook"></a></li>
+			<li><a href="#"><img src="images/icons_07.jpg" alt="Google"></a></li>
+			<li><a href="#"><img src="images/icons_09.jpg" alt="Github"></a></li>
+			<li><a href="#"><img src="images/icons_11.jpg" alt="Dribbble"></a></li>
+		</ul>
+		<ul class="copyright">
+			<li>&copy; Untitled</li><li>Producer:  &nbsp;钟少侠</li>
+		</ul>
+	</footer>
+	<!-- Scripts -->
+	<script src="js/main.js"></script>
+	</body>
+</html>
