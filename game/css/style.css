@@ -1,0 +1,637 @@
+body {
+  width: 100%;
+  background-color: #110001;
+}
+header {
+  width: 100%;
+  height: 425px;
+  background: url("../images/bg.jpg") no-repeat;
+  background-position: 50% 50%;
+}
+header nav {
+  padding-top: 314px;
+  position: relative;
+  width: 1118px;
+  height: 236px;
+  margin: 0 auto;
+  background: url("../images/nav_bg.png") no-repeat left center;
+}
+header nav ul {
+  position: absolute;
+  top: 304px;
+  left: 80px;
+}
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+header nav ul li .mr-left {
+  margin-left: 50px;
+}
+header nav ul li a {
+  font-family: Microsoft Yahei;
+  font-size: 18px;
+  color: #ffc893;
+  text-shadow: 5px 5px 5px #341805;
+}
+.wrap {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: -54px;
+  margin-bottom: 20px ;
+}
+.wrap .main-left {
+  width: 236px;
+  float: left;
+}
+.wrap .main-left .login {
+  background-color: #2b1601;
+  width: 236px;
+}
+.wrap .main-left .login .layui-form {
+  /*.txt{ margin: 14px 8px;
+          lable{font-family:"宋体";font-size: 16px;color:#d8a753; }
+          input{width: 154px;height: 22px;}
+        }
+      }*/
+
+}
+.wrap .main-left .login .layui-form .layui-form-item .layui-form-label {
+  position: relative;
+  line-height: 12px;
+  text-align: left;
+  font-family: "宋体";
+  font-size: 16px;
+  color: #d8a753;
+  width: 60px;
+  padding: 9px 7px;
+}
+.wrap .main-left .login .layui-form .layui-form-item .layui-input-block {
+  margin: 16px 0 0;
+}
+.wrap .main-left .login .layui-form .layui-form-item .layui-input-block .layui-input {
+  width: 156px;
+  height: 30px;
+  border: 1px solid #8d592f;
+  background-color: #361e03;
+}
+.wrap .main-left .login .layui-form .logon {
+  margin: 20px 22px;
+}
+.wrap .main-left .login .layui-form .logon .layui-btn {
+  margin: 0 6px;
+  width: 110px;
+  height: 36px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #eab401;
+  background-color: transparent;
+  background: url("../images/loginbtn2.png") no-repeat left center;
+}
+.wrap .main-left .login .layui-form .logon a {
+  font-size: 14px;
+  color: #c88d00;
+}
+.wrap .main-left .login .login-btn {
+  margin-left: 30px;
+}
+.wrap .main-left .login .login-btn .layui-btn-primary {
+  border: 1px solid #5b401c;
+  background-color: #3f2001;
+  color: #edbc00;
+}
+.wrap .main-left .login .login-btn .layui-btn {
+  width: 80px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.wrap .main-left .login .login-long-btn .receive {
+  border: none;
+  width: 236px;
+  height: 50px;
+  background: url("../images/receive.jpg") no-repeat left center;
+  color: #e2b70a;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 28px;
+  cursor: pointer;
+}
+.wrap .main-left .login .login-long-btn .download {
+  border: none;
+  width: 236px;
+  height: 50px;
+  background: url("../images/download.jpg") no-repeat left center;
+  color: #e2b70a;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 22px;
+  cursor: pointer;
+}
+.wrap .main-left .server-list h3 {
+  width: 237px;
+  height: 30px;
+  line-height: 30px;
+  background: url("../images/server.jpg") no-repeat left center;
+  font-size: 16px;
+  color: #ffd800;
+  text-align: center;
+}
+.wrap .main-left .server-list .list-content {
+  width: 235px;
+  height: 236px;
+  background: url("../images/server_list_bg.jpg") no-repeat left center;
+}
+.wrap .main-left .server-list .list-content li {
+  padding: 8px 5px 8px 0;
+  text-align: center;
+  border-bottom: 1px dotted #6a3906;
+  margin: 0 24px;
+}
+.wrap .main-left .server-list .list-content li a {
+  font-size: 14px;
+  color: #d6af3a;
+  margin: 0 22px 0 12px;
+}
+.wrap .main-left .server-list .list-content li strong {
+  color: #ffcc00;
+}
+.wrap .main-left .server-list .list-content li .list-one {
+  font-size: 14px;
+  color: #fff;
+  background-color: #a40000;
+  border-radius: 2px;
+  padding: 4px;
+}
+.wrap .main-left .server-list .list-content li .list-two {
+  font-size: 14px;
+  color: #fff;
+  background-color: #ff9c00;
+  border-radius: 2px;
+  padding: 4px;
+}
+.wrap .main-left .server-list .list-content li .list-three {
+  font-size: 14px;
+  color: #fff;
+  background-color: #ef5205;
+  border-radius: 2px;
+  padding: 4px;
+}
+.wrap .main-left .server-list .list-content .list-empty {
+  padding: 8px 0px 8px 10px;
+}
+.wrap .main-left .server-list .list-content .more-server {
+  width: 114px;
+  height: 26px;
+  background-color: #683806;
+  color: #ffd200;
+  margin: 14px 0 16px 60px;
+  text-align: center;
+  border: 1px solid #8b4804;
+  border-radius: 4px;
+}
+.wrap .main-left .game-introduce h3 {
+  width: 237px;
+  height: 30px;
+  line-height: 30px;
+  background: url("../images/server.jpg") no-repeat left center;
+  font-size: 16px;
+  color: #ffd800;
+  text-align: center;
+}
+.wrap .main-left .game-introduce .game-introduce-content {
+  width: 235px;
+  height: 243px;
+  background: url("../images/game_introduce_bg.jpg") no-repeat left center;
+}
+.wrap .main-left .game-introduce .game-introduce-content img {
+  margin-left: 30px;
+}
+.wrap .main-left .game-introduce .game-introduce-content p {
+  text-indent: 1rem;
+  color: #ffae00;
+  padding: 0 10px 0 10px;
+  line-height: 23px;
+}
+.wrap .main-left .customer-service h3 {
+  width: 237px;
+  height: 30px;
+  line-height: 30px;
+  background: url("../images/server.jpg") no-repeat left center;
+  font-size: 16px;
+  color: #ffd800;
+  text-align: center;
+}
+.wrap .main-left .customer-service .customer-service-content {
+  width: 235px;
+  height: 118px;
+  background: url("../images/custom_server_bg.jpg") no-repeat left center;
+}
+.wrap .main-left .customer-service .customer-service-content p {
+  font-size: 14px;
+  color: #dcad00;
+  padding: 14px 0 0 10px;
+}
+.wrap .main-left .customer-service .customer-service-content p a {
+  color: #da0600;
+}
+.wrap .main-left .customer-service .customer-service-content p a:hover {
+  color: #ccc;
+}
+.wrap .main-left .customer-service .customer-service-content .enter-server {
+  width: 114px;
+  height: 26px;
+  background-color: #683806;
+  color: #ffd200;
+  margin: 14px 0 16px 60px;
+  text-align: center;
+  border: 1px solid #8b4804;
+  border-radius: 4px;
+}
+.wrap .main-right {
+  width: 748px;
+  float: right;
+  background: rgba(37, 17, 1, 0.8);
+  padding: 8px;
+}
+.wrap .main-right .ad {
+  position: relative;
+  overflow: hidden;
+}
+.wrap .main-right .ad .slideBox {
+  width: 309px;
+  height: 235px;
+  float: left;
+  /*position: absolute;left: 0;top:0;*/
+}
+.wrap .main-right .ad .tab {
+  width: 425px;
+  height: 234px;
+  float: right;
+  margin-top: -10px;
+  /*position: absolute;right: 0;top:0;*/
+
+}
+.wrap .main-right .ad .tab .layui-tab-title li {
+  font-size: 16px;
+  color: #fed101;
+  font-size: 600;
+  background-color: #4d1e03;
+  border-right: 1px solid #250d01;
+  position: relative;
+}
+.wrap .main-right .ad .tab .layui-tab-title .layui-this {
+  background-color: #672606;
+}
+.wrap .main-right .ad .tab .layui-tab-title .layui-this:after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #762b06;
+  content: ' ';
+  position: absolute;
+  top: 40px;
+  left: 34px;
+}
+.wrap .main-right .ad .tab .tab-more a {
+  color: #fed101;
+}
+.wrap .main-right .ad .tab .tab-more a:hover {
+  color: #cccccc;
+}
+.wrap .main-right .ad .tab .layui-tab-bar {
+  display: none;
+}
+.wrap .main-right .ad .tab .layui-tab-content .layui-tab-item ul li {
+  position: relative;
+  padding: 2px;
+  border-bottom: 1px dotted #5b2203;
+  margin: 10px 10px 0 20px;
+}
+.wrap .main-right .ad .tab .layui-tab-content .layui-tab-item ul li a {
+  color: #ffae00;
+}
+.wrap .main-right .ad .tab .layui-tab-content .layui-tab-item ul li a:hover {
+  color: #cccccc;
+}
+.wrap .main-right .ad .tab .layui-tab-content .layui-tab-item ul li span {
+  position: absolute;
+  right: 8px;
+}
+.wrap .main-right .ad .ad-pic {
+  clear: both;
+}
+.wrap .main-right .ad .ad-pic img {
+  display: inline-block;
+  margin-top: 6px;
+}
+.wrap .main-right .game-content {
+  padding: 4px;
+}
+.wrap .main-right .game-content .game-data {
+  width: 366px;
+  height: 274px;
+  float: left;
+}
+.wrap .main-right .game-content .game-data .game-data-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  background-color: #582000;
+}
+.wrap .main-right .game-content .game-data .game-data-title img {
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+.wrap .main-right .game-content .game-data .game-data-title h5 {
+  display: inline;
+  font-size: 16px;
+  color: #ffd800;
+  padding-left: 50px;
+}
+.wrap .main-right .game-content .game-data .game-data-title span {
+  position: absolute;
+  right: 30px;
+}
+.wrap .main-right .game-content .game-data .game-data-title span a {
+  color: #ff4800;
+}
+.wrap .main-right .game-content .game-data .game-data-title span a:hover {
+  color: #ccc;
+}
+.wrap .main-right .game-content .game-data .game-data-content {
+  border: 1px solid #653502;
+  width: 364px;
+  height: 244px;
+  background: url("../images/game_data_bg.jpg") repeat-x left top;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul {
+  margin: 10px;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul li {
+  position: relative;
+  border-bottom: 1px dashed #7f2d00;
+  padding: 16px 10px 16px 4px;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul li span {
+  font-size: 16px;
+  color: #ff4e00;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul li div {
+  position: absolute;
+  right: 0;
+  top: 8px;
+  display: inline-block;
+  width: 268px;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul li div a {
+  color: #ffae00;
+}
+.wrap .main-right .game-content .game-data .game-data-content ul li div a:hover {
+  color: #cccccc;
+}
+.wrap .main-right .game-content .game-strategy {
+  width: 366px;
+  height: 274px;
+  float: right;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  background-color: #582000;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title img {
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title h5 {
+  display: inline;
+  font-size: 16px;
+  color: #ffd800;
+  padding-left: 50px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title span {
+  position: absolute;
+  right: 30px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title span a {
+  color: #ff4800;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-title span a:hover {
+  color: #ccc;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content {
+  background: url("../images/game_data_bg.jpg") repeat-x left top;
+  border: 1px solid #653502;
+  width: 364px;
+  height: 244px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content ul {
+  margin: 10px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content ul li {
+  padding: 12px 0 10px 4px;
+  position: relative;
+  border-bottom: 1px dashed #7f2d00;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content ul li span {
+  position: absolute;
+  right: 14px;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content ul li a {
+  color: #ffae00;
+}
+.wrap .main-right .game-content .game-strategy .game-strategy-content ul li a:hover {
+  color: #ccc;
+}
+.wrap .main-right .game-screenshot {
+  width: 740px;
+  height: 150px;
+  clear: both;
+  padding: 30px 0 30px 4px;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  background-color: #582000;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title img {
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title h5 {
+  display: inline;
+  font-size: 16px;
+  color: #ffd800;
+  padding-left: 50px;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title span {
+  position: absolute;
+  right: 30px;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title span a {
+  color: #ff4800;
+}
+.wrap .main-right .game-screenshot .game-screenshot-title span a:hover {
+  color: #ccc;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content {
+  width: 740px;
+  height: 120px;
+  background: url("../images/game_screenshot_bg.jpg") repeat-x left center;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left {
+  width: 740px;
+  overflow: hidden;
+  position: relative;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd {
+  padding: 10px;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd .tempWrap {
+  width: 710px;
+  overflow: hidden;
+  position: relative;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul {
+  overflow: hidden;
+  zoom: 1;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul li {
+  margin: 0 6px;
+  float: left;
+  _display: inline;
+  overflow: hidden;
+  text-align: center;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul li .pic {
+  text-align: center;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul li .pic img {
+  width: 230px;
+  height: 97px;
+  display: block;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul li .pic a:hover img {
+  border-color: #999;
+}
+.wrap .main-right .game-screenshot .game-screenshot-content .picMarquee-left .bd ul li .title {
+  line-height: 24px;
+}
+.wrap .main-right .media-cooperation {
+  width: 740px;
+  height: 265px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  background-color: #582000;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title img {
+  position: absolute;
+  top: -5px;
+  left: -4px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title h5 {
+  display: inline;
+  font-size: 16px;
+  color: #ffd800;
+  padding-left: 50px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title span {
+  position: absolute;
+  right: 30px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title span a {
+  color: #ff4800;
+}
+.wrap .main-right .media-cooperation .media-cooperation-title span a:hover {
+  color: #ccc;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content {
+  position: relative;
+  width: 740px;
+  height: 217px;
+  background: url("../images/media_content_bg.jpg") repeat-x left center;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .media-pic {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .slideBox {
+  position: absolute;
+  left: 140px;
+  top: 30px;
+  display: inline-block;
+  width: 205px;
+  height: 164px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .game-strategy-content {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  width: 338px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .game-strategy-content ul li {
+  padding: 6px 0 6px 4px;
+  position: relative;
+  border-bottom: 1px dashed #7f2d00;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .game-strategy-content ul li span {
+  position: absolute;
+  right: 14px;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .game-strategy-content ul li a {
+  color: #ffae00;
+}
+.wrap .main-right .media-cooperation .media-cooperation-content .game-strategy-content ul li a:hover {
+  color: #ccc;
+}
+footer {
+  width: 1000px;
+  height: 126px;
+  margin: 0 auto;
+  background: url("../images/footer_bg.jpg") no-repeat left center;
+}
+footer .link-title {
+  width: 100%;
+  height: 28px;
+  position: relative;
+}
+footer .link-title img {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+footer .link-title h4 {
+  line-height: 28px;
+  font-family: Microsoft Yahei;
+  font-size: 15px;
+  color: #ffd800;
+  margin-left: 58px;
+}
+footer .link-content ul li {
+  display: inline-block;
+  margin-left: 12px;
+  margin-top: 20px;
+  position: relative;
+}
+footer .link-content ul li a {
+  font-size: 12px;
+  color: #ff4800;
+  cursor: pointer;
+}
+footer .link-content ul li a:hover {
+  color: #cccccc;
+}
